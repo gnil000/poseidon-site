@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+    import {Hero, Advantages, Process} from '$lib/features/landing';
+    import Footer from '$lib/components/organisms/Footer.svelte';
+</script>
+
+<Hero></Hero>
+<Advantages></Advantages>
+<Process></Process>
+<Footer></Footer>

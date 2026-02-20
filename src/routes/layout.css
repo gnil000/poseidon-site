@@ -1,2 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans:wght@300;400;600&display=swap');
+
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@theme{
+    --font-inter: Inter, "sans-serif";
+    --font-lora: Lora, "sans-serif";
+
+    --color-atlantic: oklch(0.18 0.09 263.04 / 0.85);
+    --color-velvet-cosmos: oklch(0.16 0.1 271.86 / 0.85);
+    --color-sea-pearl: oklch(0.9 0.02 267);
+    --color-obsidian-blue: oklch(0.19 0.04 240.08);
+}
