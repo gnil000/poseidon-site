@@ -38,13 +38,15 @@
 	</div>
 {/if}
 
-<div class="flex flex-col items-center justify-evenly bg-stone-100 py-20 md:flex-row md:py-10">
-	<img class="hidden w-1/3 md:block" src={PlateOysters} alt="Тарелка устриц" />
-	<div class="flex flex-col items-center gap-5">
+<div class="w-full flex flex-col items-center justify-evenly bg-stone-100 py-20 md:flex-row md:py-10">
+	<div class="hidden md:block md:flex md:items-center md:justify-center">
+		<img src={PlateOysters} alt="Тарелка устриц" />
+	</div>
+	<div class="flex w-full md:w-1/4 flex-col items-center gap-5">
 		<div class="w-full">
 			<Logo width="100%" height="auto" fill="#030365"></Logo>
 		</div>
-		<h1 class="text-center font-lora text-4xl font-bold text-gray-950">Доставка живых устриц</h1>
+		<h1 class="text-center font-lora text-3xl md:text-4xl font-bold text-gray-950">Доставка живых устриц</h1>
 		<p class="text-center">
 			Доставка по Краснодару от x часов / x устриц
 			<br />
