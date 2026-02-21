@@ -7,7 +7,9 @@
     <div class="">
         <Logo width="100%" height="auto" fill="#ffffff"></Logo>
     </div>
-    <Contacts></Contacts>
+    <section id="contacts">
+        <Contacts></Contacts>
+    </section>
 </footer>
 
 <style>

@@ -24,11 +24,12 @@
 			<br />
 			Доставка по России от x дней / x устриц
 		</p>
-		<Button>
+		<Button href="#contacts">
 			{@render buttonContent()}
 		</Button>
 	</div>
 </div>
 
 <style>
+
 </style>

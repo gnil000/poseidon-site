@@ -15,23 +15,23 @@
 {#snippet buttonWhatsapp()}
 	<div class="flex flex-row items-center gap-2 px-4 py-2">
 		<Whatsapp></Whatsapp>
-		<span>Позвонить по телефону</span>
+		<span>Написать в Whatsapp</span>
 	</div>
 {/snippet}
 
 {#snippet buttonTelegram()}
 	<div class="flex flex-row items-center gap-2 px-4 py-2">
 		<Telegram></Telegram>
-		<span>Позвонить по телефону</span>
+		<span>Написать в Telegram</span>
 	</div>
 {/snippet}
 
 <div class="flex flex-col items-center gap-5">
 	<h2 class="font-inter text-white text-xl md:text-2xl">Контакты</h2>
 	<div class="flex flex-col gap-3">
-		<Button>{@render buttonTelephone()}</Button>
-		<Button>{@render buttonWhatsapp()}</Button>
-		<Button>{@render buttonTelegram()}</Button>
+		<Button href="tel:+79186505376" className="bg-sky-600">{@render buttonTelephone()}</Button>
+		<Button href="https://api.whatsapp.com/send?phone=79186505376" className="bg-sky-600">{@render buttonWhatsapp()}</Button>
+		<Button href="https://t.me/BorisPoseidon" className="bg-sky-600">{@render buttonTelegram()}</Button>
 	</div>
 </div>
 
