@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: poseidon-app
+    ports:
+      - "5173:5173"
+    environment:
+      NODE_ENV: production
+    volumes:
+      - .:/app
+    restart: unless-stopped

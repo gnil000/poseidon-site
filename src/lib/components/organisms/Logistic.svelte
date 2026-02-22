@@ -8,7 +8,7 @@
 	<div class="flex flex-row flex-wrap items-center gap-4 justify-evenly">
 		{#each cities as city}
 			<div
-				class="group flex cursor-default items-center gap-3 rounded-2xl bg-stone-100 p-4
+				class="group flex cursor-default items-center gap-3 rounded-xl bg-stone-100 p-4
 						   transition-all duration-300
 						   hover:-translate-y-1 hover:bg-white hover:shadow-xl
 						   md:p-5"

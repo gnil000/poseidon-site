@@ -46,11 +46,11 @@
 		<div class="w-full">
 			<Logo width="100%" height="auto" fill="#030365"></Logo>
 		</div>
-		<h1 class="text-center font-lora text-3xl md:text-4xl font-bold text-gray-900">Доставка живых устриц</h1>
+		<h1 class="text-center font-lora text-3xl md:text-4xl font-bold text-gray-900">Доставка живой морепродукции для HoReCa</h1>
 		<p class="text-center">
 			Доставка по Краснодару от x часов / x устриц
 			<br />
-			Доставка по России от x дней / x устриц
+			Доставка по Югу России от x дней / x устриц
 		</p>
 		<Button href="#contacts">
 			{@render buttonContent()}
