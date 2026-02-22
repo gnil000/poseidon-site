@@ -37,6 +37,7 @@
 		"vite": "^7.3.1"
 	},
 	"dependencies": {
-		"@splidejs/svelte-splide": "^0.2.9"
+		"@splidejs/svelte-splide": "^0.2.9",
+		"@sveltejs/adapter-node": "^5.5.3"
 	}
 }
