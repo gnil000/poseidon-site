@@ -14,14 +14,14 @@
 
 {#snippet buttonWhatsapp()}
 	<div class="flex flex-row items-center gap-2 px-4 py-2">
-		<Whatsapp></Whatsapp>
+		<Whatsapp fill="#ffffff"></Whatsapp>
 		<span>Написать в Whatsapp</span>
 	</div>
 {/snippet}
 
 {#snippet buttonTelegram()}
 	<div class="flex flex-row items-center gap-2 px-4 py-2">
-		<Telegram></Telegram>
+		<Telegram fill="#ffffff"></Telegram>
 		<span>Написать в Telegram</span>
 	</div>
 {/snippet}
