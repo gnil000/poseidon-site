@@ -4,7 +4,7 @@
 
   import Oyster1 from '$lib/assets/images/landing/oysters.webp'
   import Oyster2 from '$lib/assets/images/landing/oysters2.webp'
-  import Oyster3 from '$lib/assets/images/landing/oysters3.webp'
+  // import Oyster3 from '$lib/assets/images/landing/oysters3.webp'
   import Basement from '$lib/assets/images/landing/basement.webp'
   import Proehat from '$lib/assets/images/landing/kak proehat1.webp'
   import Krab from '$lib/assets/images/landing/krab.webp'
@@ -34,7 +34,7 @@
     }
   }
 }}>
-  {#each photos as photo}
+  {#each photos as photo (photo)}
     <SplideSlide>
       <div class="h-[70vh] flex items-center justify-center overflow-hidden">
         <img class="rounded-xl max-w-full max-h-full object-cover" src={photo} alt="Oyster" />

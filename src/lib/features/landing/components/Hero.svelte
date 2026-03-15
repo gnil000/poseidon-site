@@ -3,7 +3,8 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ShoppingBasket from '$lib/components/atoms/icon/ShoppingBasket.svelte';
 	import Logo from '$lib/components/atoms/icon/Logo.svelte';
-	import PlateOysters from '$lib/assets/images/landing/ustric_present.png';
+	//import PlateOysters from '$lib/assets/images/landing/ustric_present.png';
+	import PlateOysters from '$lib/assets/images/landing/ustric_present_2.png';
 
 	let fadeOut = false;
 	let showIntro = false;
@@ -40,7 +41,8 @@
 
 <div class="w-full flex flex-col items-center justify-evenly bg-stone-100 py-20 md:flex-row md:py-10">
 	<div class="hidden md:block md:flex md:items-center md:justify-center">
-		<img src={PlateOysters} alt="Тарелка устриц" />
+	<!-- class="drop-shadow-2xl drop-shadow-amber-950" -->
+		<img src={PlateOysters} alt="Тарелка устриц"/>
 	</div>
 	<div class="flex w-full md:w-1/4 flex-col items-center gap-5">
 		<div class="w-full">
@@ -48,9 +50,9 @@
 		</div>
 		<h1 class="text-center font-lora text-3xl md:text-4xl font-bold text-gray-900">Доставка живой морепродукции для HoReCa</h1>
 		<p class="text-center">
-			Доставка по Краснодару от x часов / x устриц
+			Доставка по Краснодару от 2 часов
 			<br />
-			Доставка по Югу России от x дней / x устриц
+			Доставка по Югу России от 1 дня
 		</p>
 		<Button href="#contacts">
 			{@render buttonContent()}

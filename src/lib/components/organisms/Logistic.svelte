@@ -6,7 +6,7 @@
 <div class="flex flex-col gap-8 items-center justify-center">
 	<h2 class="font-lora text-2xl font-bold text-gray-900">Доставка по Югу России</h2>
 	<div class="flex flex-row flex-wrap items-center gap-4 justify-evenly">
-		{#each cities as city}
+		{#each cities as city (city)}
 			<div
 				class="group flex cursor-default items-center gap-3 rounded-xl bg-stone-100 p-4
 						   transition-all duration-300
