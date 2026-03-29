@@ -50,9 +50,9 @@
 		</div>
 		<h1 class="text-center font-lora text-3xl md:text-4xl font-bold text-gray-900">Доставка живой морепродукции для HoReCa</h1>
 		<p class="text-center">
-			Доставка по Краснодару от 2 часов
+			Доставка по Краснодару
 			<br />
-			Доставка по Югу России от 1 дня
+			Доставка по Югу России, Крыму и Северному Кавказу
 		</p>
 		<Button href="#contacts">
 			{@render buttonContent()}
