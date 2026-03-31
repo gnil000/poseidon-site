@@ -6,6 +6,7 @@
 
     export let width: string | undefined;
     export let height: string | undefined;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-empty-object-type
     export let picture: typeof SvelteComponent<{ width?: string | undefined; height?: string | undefined; fill?: string | undefined; }, { [evt: string]: CustomEvent<any>; }, {}>;
 </script>
 
