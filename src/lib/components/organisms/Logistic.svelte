@@ -1,6 +1,6 @@
 <script lang="ts">
 	import MapMarker from '$lib/components/atoms/icon/MapMarker.svelte';
-	const cities = ['Краснодар', 'Ростов-на-Дону', 'Анапа', 'Новороссийск', 'Геленджик'];
+	const cities = ['Краснодар', 'Сочи', 'Ростов-на-Дону', 'Анапа', 'Новороссийск', 'Геленджик', 'Крым', 'Северный Кавказ'];
 </script>
 
 <div class="flex flex-col gap-8 items-center justify-center">
