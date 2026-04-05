@@ -55,9 +55,9 @@
 				Доставка живой морепродукции для HoReCa
 			</h1>
 			<p class="text-center text-slate-100 text-lg text-shadow-lg/60">
-				Доставка по Краснодару
+				Доставка по Краснодару,
 				<br />
-				Доставка по Югу России, Крыму и Северному Кавказу
+				Югу России, Крыму и Северному Кавказу
 			</p>
 			<Button href="#contacts">
 				{@render buttonContent()}
