@@ -6,10 +6,10 @@
 	import Logo from "$lib/components/atoms/icon/Logo.svelte";
 
     // let fadeOut = false;
-    let showIntro = false;
+    let isMobile = true;
 	onMount(() => {
-		if (window.innerWidth < 768) {
-			showIntro = true;
+		if (window.innerWidth > 768) {
+			isMobile = false;
 			setTimeout(() => {
 				// fadeOut = true;
 			}, 1500);
@@ -21,7 +21,7 @@
     <div class="">
         <Logo width="100%" height="auto" fill="#ffffff"></Logo>
     </div>
-    {#if showIntro}
+    {#if isMobile}
     <section id="contacts">
         <ContactsMobile></ContactsMobile>
     </section>

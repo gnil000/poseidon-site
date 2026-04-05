@@ -80,7 +80,7 @@
 
 	<div class="flex flex-col gap-5">
 		<h2 class="font-inter text-xl text-white md:text-2xl">Наши партнёры</h2>
-			<ul class="flex flex-col gap-y-2">
+			<ul class="flex flex-col gap-y-2 items-center">
 			<li>
 				<a
 					href=""
