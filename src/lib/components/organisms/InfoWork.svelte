@@ -12,7 +12,7 @@
 		'Мы бережно работаем с морепродуктами на каждом этапе: от отбора продукции до хранения, упаковки и доставки. Собственный склад с ваннами для устриц помогает сохранять их свежесть и естественное качество.';
 </script>
 
-<section class="flex flex-col items-center bg-stone-100 py-16 sm:py-20">
+<section class="flex flex-col items-center pt-16 sm:py-20">
 	<div class="mx-auto mb-16 max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="text-left">
 			<p class="text-sm font-medium tracking-[0.2em] text-stone-500 uppercase">

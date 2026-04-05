@@ -47,7 +47,7 @@
 		<ul class="flex flex-col gap-y-2">
 			<li>
 				<a
-					href=""
+					href="tel:+79628822222"
 					class="border-b border-white/30 text-slate-200 transition-colors duration-200 hover:text-white"
 				>
 					Посейдон Сочи
@@ -55,7 +55,7 @@
 			</li>
 			<li>
 				<a
-					href=""
+					href="https://vkusoteka.com/"
 					class="border-b border-white/30 text-slate-200 transition-colors duration-200 hover:text-white"
 				>
 					Наутилус Москва

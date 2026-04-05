@@ -1,21 +1,21 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ShoppingBasket from '$lib/components/atoms/icon/ShoppingBasket.svelte';
 	import Logo from '$lib/components/atoms/icon/Logo.svelte';
 
 	// import headerImage from '$lib/assets/images/beauty/QTWTLQE6CLQXKLVA2YOYVKNILI_rotated.webp';
 
-	let fadeOut = false;
-	let showIntro = false;
-	onMount(() => {
-		if (window.innerWidth < 768) {
-			showIntro = true;
-			setTimeout(() => {
-				fadeOut = true;
-			}, 1500);
-		}
-	});
+	// let fadeOut = false;
+	// let showIntro = false;
+	// onMount(() => {
+	// 	if (window.innerWidth < 768) {
+	// 		showIntro = true;
+	// 		setTimeout(() => {
+	// 			fadeOut = true;
+	// 		}, 1500);
+	// 	}
+	// });
 </script>
 
 {#snippet buttonContent()}
@@ -25,7 +25,7 @@
 	</div>
 {/snippet}
 
-{#if showIntro}
+<!-- {#if showIntro}
 	<div
 		class="intro fixed inset-0 z-50 flex items-center justify-center bg-white"
 		class:fade-out={fadeOut}
@@ -37,7 +37,7 @@
 			<Logo width="100%" height="auto" fill="#030365" />
 		</div>
 	</div>
-{/if}
+{/if} -->
 
 <div
 	class="min-h-screen w-full 
@@ -59,7 +59,7 @@
 				<br />
 				Югу России, Крыму и Северному Кавказу
 			</p>
-			<Button href="#contacts">
+			<Button href="#main_block_contacts">
 				{@render buttonContent()}
 			</Button>
 		</div>
