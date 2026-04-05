@@ -1,6 +1,9 @@
 <script lang="ts">
-	const phone = '+7 (918) 650-53-76';
-	const phoneHref = 'tel:+79186505376';
+	const phone = '+7 (918) 961-08-88';
+	const phoneHref = 'tel:+79189610888';
+
+	const phoneBoris = '+7 (918) 650-53-76';
+	const phoneHrefBoris = 'tel:+79186505376';
 
 	const telegram = 'https://t.me/BorisPoseidon';
 	const email = 'poseidon.krd@mail.ru';
@@ -38,6 +41,13 @@
 					class="block w-full rounded-xl bg-blue-950 px-6 py-4 text-center text-base font-medium text-white transition hover:bg-blue-800"
 				>
 					Позвонить: {phone}
+				</a>
+
+				<a
+					href={phoneHrefBoris}
+					class="block w-full rounded-xl bg-blue-950 px-6 py-4 text-center text-base font-medium text-white transition hover:bg-blue-800"
+				>
+					Позвонить: {phoneBoris}
 				</a>
 
 				<div class="grid grid-cols-1 gap-3 sm:grid-cols-2">

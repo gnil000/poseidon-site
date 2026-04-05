@@ -32,6 +32,8 @@ npm run dev -- --host
 Docker:
 
 ```
+docker compose build
+
 docker compose up -d
 ```
 
