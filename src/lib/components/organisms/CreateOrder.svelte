@@ -24,7 +24,7 @@
 						Свяжитесь с нами
 					</h2>
 
-					<p class="mt-3 text-stone-600 sm:text-lg">
+					<p class="mt-3 text-left text-stone-600 sm:text-lg">
                         Вы всегда можете заказать свежую рыбу и морепродукты с доставкой!
                         <br>
                         <br>
