@@ -41,12 +41,13 @@
 
 <div
 	class="min-h-screen w-full 
-	bg-[url('$lib/assets/images/beauty/QTWTLQE6CLQXKLVA2YOYVKNILI_rotated.webp')] 
+	bg-[url('$lib/assets/images/beauty/new/oysters_main.webp')] 
 	bg-cover bg-center
 	py-20 md:flex-row md:py-10"
 >
+
 	<div class="min-h-screen flex w-full flex-col items-center justify-evenly
-	absolute inset-0 bg-blue-950/35">
+	absolute inset-0 bg-blue-950/35 md:bg-blue-950/25">
 		<div class="flex w-full flex-col items-center gap-5 ">
 			<div class="w-full md:w-1/3">
 				<Logo width="100%" height="auto" fill="#ffffff"></Logo>

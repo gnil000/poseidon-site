@@ -1,5 +1,8 @@
 <script lang="ts">
-	export let image: string;
+	export let image800: string;
+	export let image1200: string;
+	export let image1600: string;
+
 	export let imageAlt: string = '';
 	export let title: string;
 	export let text: string;
@@ -29,7 +32,12 @@
 
 		<div class={`w-full ${imageMaxWidth}`}>
 			<div class="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-stone-200">
-				<img src={image} alt={imageAlt} class="aspect-[4/3] w-full object-cover" />
+				<img src={image1200} 
+				srcset={`${image800} 800w, ${image1200} 1200w, ${image1600} 1600w`}
+				sizes="(max-width: 640px) 100vw, 1600px"
+				alt={imageAlt} 
+				class="aspect-[4/3] w-full object-cover"
+				loading="lazy" />
 			</div>
 		</div>
 	</div>
