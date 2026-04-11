@@ -67,7 +67,7 @@
 </div>
 
 <style>
-	.intro {
+	/* .intro {
 		animation: breathe 2s ease-in-out infinite;
 		transition:
 			opacity 0.8s ease,
@@ -77,7 +77,7 @@
 	.intro.fade-out {
 		opacity: 0;
 		transform: scale(1.1);
-	}
+	} */
 
 	@keyframes breathe {
 		0%,
