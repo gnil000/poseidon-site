@@ -9,7 +9,7 @@ import type { Snippet } from 'svelte';
 
 {#if href}
 	<a
-		class="button items-center rounded-xl bg-blue-950 px-1 py-1 text-center text-white md:hover:bg-blue-800
+		class="button items-center rounded-xl bg-slate-50 px-1 py-1 text-center text-slate-950 md:hover:bg-slate-300
 			{activeEffect ? 'activeable' : ''}
 			{animation} {className}"
 		href={href}
