@@ -1,9 +1,10 @@
 <script lang="ts">
+import type { Snippet } from 'svelte';
 	export let href: string | undefined = undefined;
 	export let className: string | undefined = undefined;
 	export let activeEffect: boolean = true;
 	export let animation: 'none' | 'swing' = 'swing';
-	export let children: () => any;
+	export let children: Snippet;
 </script>
 
 {#if href}
@@ -11,7 +12,7 @@
 		class="button items-center rounded-xl bg-blue-950 px-1 py-1 text-center text-white md:hover:bg-blue-800
 			{activeEffect ? 'activeable' : ''}
 			{animation} {className}"
-		{href}
+		href={href}
 		type="button"
 	>
 		<span> {@render children()} </span>

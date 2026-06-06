@@ -1,21 +1,21 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ShoppingBasket from '$lib/components/atoms/icon/ShoppingBasket.svelte';
 	import Logo from '$lib/components/atoms/icon/Logo.svelte';
-	//import PlateOysters from '$lib/assets/images/landing/ustric_present.png';
-	import PlateOysters from '$lib/assets/images/landing/ustric_present_2.png';
 
-	let fadeOut = false;
-	let showIntro = false;
-	onMount(() => {
-		if (window.innerWidth < 768) {
-			showIntro = true;
-			setTimeout(() => {
-				fadeOut = true;
-			}, 1500);
-		}
-	});
+	// import headerImage from '$lib/assets/images/beauty/QTWTLQE6CLQXKLVA2YOYVKNILI_rotated.webp';
+
+	// let fadeOut = false;
+	// let showIntro = false;
+	// onMount(() => {
+	// 	if (window.innerWidth < 768) {
+	// 		showIntro = true;
+	// 		setTimeout(() => {
+	// 			fadeOut = true;
+	// 		}, 1500);
+	// 	}
+	// });
 </script>
 
 {#snippet buttonContent()}
@@ -25,7 +25,7 @@
 	</div>
 {/snippet}
 
-{#if showIntro}
+<!-- {#if showIntro}
 	<div
 		class="intro fixed inset-0 z-50 flex items-center justify-center bg-white"
 		class:fade-out={fadeOut}
@@ -37,31 +37,38 @@
 			<Logo width="100%" height="auto" fill="#030365" />
 		</div>
 	</div>
-{/if}
+{/if} -->
 
-<div class="w-full flex flex-col items-center justify-evenly bg-stone-100 py-20 md:flex-row md:py-10">
-	<div class="hidden md:block md:flex md:items-center md:justify-center">
-	<!-- class="drop-shadow-2xl drop-shadow-amber-950" -->
-		<img src={PlateOysters} alt="Тарелка устриц"/>
-	</div>
-	<div class="flex w-full md:w-1/4 flex-col items-center gap-5">
-		<div class="w-full">
-			<Logo width="100%" height="auto" fill="#030365"></Logo>
+<div
+	class="min-h-screen w-full 
+	bg-[url('$lib/assets/images/beauty/new/oysters_main.webp')] 
+	bg-cover bg-center
+	py-20 md:flex-row md:py-10"
+>
+
+	<div class="min-h-screen flex w-full flex-col items-center justify-evenly
+	absolute inset-0 bg-blue-950/35 md:bg-blue-950/25">
+		<div class="flex w-full flex-col items-center gap-5 ">
+			<div class="w-full md:w-1/3">
+				<Logo width="100%" height="auto" fill="#ffffff"></Logo>
+			</div>
+			<h1 class="text-center font-lora text-3xl font-bold text-slate-100 md:text-4xl text-shadow-lg/40">
+				Доставка живой морепродукции для HoReCa
+			</h1>
+			<p class="text-center text-slate-100 text-lg text-shadow-lg/60">
+				Доставка по Краснодару,
+				<br />
+				Югу России, Крыму и Северному Кавказу
+			</p>
+			<Button href="#main_block_contacts">
+				{@render buttonContent()}
+			</Button>
 		</div>
-		<h1 class="text-center font-lora text-3xl md:text-4xl font-bold text-gray-900">Доставка живой морепродукции для HoReCa</h1>
-		<p class="text-center">
-			Доставка по Краснодару
-			<br />
-			Доставка по Югу России, Крыму и Северному Кавказу
-		</p>
-		<Button href="#contacts">
-			{@render buttonContent()}
-		</Button>
 	</div>
 </div>
 
 <style>
-	.intro {
+	/* .intro {
 		animation: breathe 2s ease-in-out infinite;
 		transition:
 			opacity 0.8s ease,
@@ -71,7 +78,7 @@
 	.intro.fade-out {
 		opacity: 0;
 		transform: scale(1.1);
-	}
+	} */
 
 	@keyframes breathe {
 		0%,

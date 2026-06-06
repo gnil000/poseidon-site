@@ -7,7 +7,7 @@
 </script>
 
 <div class="bg-atlantic flex flex-col items-center gap-10 py-10">
-	<h2 class="font-lora text-2xl font-bold text-gray-50">Почему выбирают нас?</h2>
+	<h2 class="font-semibold text-2xl font-bold text-gray-50">Почему выбирают нас?</h2>
 	<div class="w-full px-3 md:px-6 flex flex-col md:flex-row gap-4 content-center">
 		<AdvantagesCard
 			picture={Oyster}

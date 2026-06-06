@@ -14,7 +14,7 @@
     <div class="mb-2">
         <svelte:component this={picture} width={width} height={height}></svelte:component>
     </div>
-    <h3 class="font-lora text-base font-bold text-white">{title}</h3>
+    <h3 class="font-semibol text-base font-bold text-white">{title}</h3>
     <p class="text-gray-300 text-sm md:text-base">{text}</p>
 </div>
 
