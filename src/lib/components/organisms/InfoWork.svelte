@@ -15,34 +15,26 @@
 	import tuna1200 from '$lib/assets/images/beauty/new/tuna-1200.webp';
 	import tuna800 from '$lib/assets/images/beauty/new/tuna-800.webp';
 
-	// import oysters_hand1600 from '$lib/assets/images/beauty/new/hand_oysers-1600.webp';
-	// import oysters_hand1200 from '$lib/assets/images/beauty/new/hand_oysers-1200.webp';
-	// import oysters_hand800 from '$lib/assets/images/beauty/new/hand_oysers-800.webp';
 	import oysters_big_plan1600 from '$lib/assets/images/beauty/new/oysters_big_plan-1600.webp';
 	import oysters_big_plan1200 from '$lib/assets/images/beauty/new/oysters_big_plan-1200.webp';
 	import oysters_big_plan800 from '$lib/assets/images/beauty/new/oysters_big_plan-800.webp';
 
 	import ProcessRow from '$lib/components/molecules/ProcessRow.svelte';
-
-	export let eyebrow = 'Как мы работаем';
-	export let heading = 'Свежие устрицы и рыба — от хранения до доставки';
-	export let intro =
-		'Мы бережно работаем с морепродуктами на каждом этапе: от отбора продукции до хранения, упаковки и доставки. Собственный склад с ваннами для устриц помогает сохранять их свежесть и естественное качество.';
 </script>
 
 <section class="flex flex-col items-center pt-16 sm:py-20">
 	<div class="mx-auto mb-16 max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="text-left">
 			<p class="text-sm font-medium tracking-[0.2em] text-stone-500 uppercase">
-				{eyebrow}
+				Как мы работаем
 			</p>
 
 			<h2 class="mt-3 w-full text-3xl font-semibold tracking-normal text-stone-900 sm:text-4xl">
-				{heading}
+				Свежие устрицы и рыба — от хранения до доставки
 			</h2>
 
 			<p class="mt-4 text-base leading-7 text-stone-600 sm:text-lg">
-				{intro}
+				Мы бережно работаем с морепродуктами на каждом этапе: от отбора продукции до хранения, упаковки и доставки. Собственный склад с ваннами для устриц помогает сохранять их свежесть и естественное качество.
 			</p>
 		</div>
 
