@@ -1,5 +1,5 @@
 <script lang="ts">
-	import AdvantagesCard from '$lib/components/organisms/AdvantagesCard.svelte';
+	import AdvantagesCard from '$lib/components/molecules/AdvantagesCard.svelte';
 	import Oyster from '$lib/components/atoms/icon/Oyster.svelte';
 	import SafeBox from '$lib/components/atoms/icon/SafeBox.svelte';
 	import Logistic from '$lib/components/atoms/icon/Logistic.svelte';
