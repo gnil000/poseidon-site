@@ -8,7 +8,7 @@
 		<div class="mb-6 text-center sm:mb-8">
 			<p class="text-xs tracking-[0.2em] text-stone-400 uppercase">Как нас найти</p>
 
-			<h2 class="mt-2 text-2xl font-semibold text-stone-900 sm:text-3xl">Мы на карте</h2>
+			<p class="mt-2 text-2xl font-semibold text-stone-900 sm:text-3xl">Мы на карте</p>
 
 			<p class="mt-3 text-stone-600 sm:text-lg">
 				Откройте маршрут и приезжайте к нам в удобное время.
