@@ -3,5 +3,13 @@ services:
     build: .
     container_name: poseidon-app
     ports:
-      - "127.0.0.1:3000:3000"
+      - "127.0.0.1:3000:80"
     restart: unless-stopped
+
+# services:
+#   app:
+#     build: .
+#     container_name: poseidon-app
+#     ports:
+#       - "127.0.0.1:3000:3000"
+#     restart: unless-stopped
