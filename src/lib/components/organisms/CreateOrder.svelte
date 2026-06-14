@@ -19,7 +19,7 @@
 				<div class="text-center sm:text-left">
 					<p class="text-xs tracking-[0.2em] text-stone-400 uppercase">Контакты</p>
 
-					<h2 class="mt-2 text-2xl font-semibold text-stone-900 sm:text-3xl">Свяжитесь с нами</h2>
+					<p class="mt-2 text-2xl font-semibold text-stone-900 sm:text-3xl">Свяжитесь с нами</p>
 
 					<p class="mt-3 text-left text-stone-600 sm:text-lg">
 						Вы всегда можете заказать свежую рыбу и морепродукты с доставкой!

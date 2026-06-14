@@ -14,7 +14,7 @@
 
 <section class="px-4">
 	<div class="flex flex-col items-center justify-center gap-8">
-		<h2 class="text-center w-full text-2xl font-semibold tracking-normal text-stone-900 sm:text-3xl">Доставка по Югу России, Крыму и Северному Кавказу</h2>
+		<h2 class="text-center w-full text-2xl font-semibold tracking-normal text-stone-900 sm:text-3xl">Доставка устриц и живой морепродукции по Краснодару, Югу России, Крыму, Северному Кавказу</h2>
 		<p class="text-center text-base leading-7 text-stone-600 sm:text-lg">Мы доставляем свежие устрицы и рыбу по Краснодару, а также по всему югу России, включая Крым и регионы Северного Кавказа.</p>
 		<div class="flex flex-row flex-wrap items-center justify-evenly gap-4">
 			{#each cities as city (city)}

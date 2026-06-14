@@ -35,7 +35,7 @@
 
 <div class="flex flex-col items-center gap-5">
 	<div class="flex flex-col items-center gap-5">
-		<h2 class="font-inter text-xl text-white md:text-2xl">Контакты</h2>
+		<p class="font-inter text-xl text-white md:text-2xl">Контакты</p>
 		<div class="flex flex-row items-center gap-5">
 			<div class="flex flex-col gap-3">
 				<Button
@@ -79,7 +79,7 @@
 	</div>
 
 	<div class="flex flex-col gap-5">
-		<h2 class="font-inter text-xl text-white md:text-2xl">Наши партнёры</h2>
+		<p class="font-inter text-xl text-white md:text-2xl">Наши партнёры</p>
 			<ul class="flex flex-col gap-y-2 items-center">
 			<li>
 				<a

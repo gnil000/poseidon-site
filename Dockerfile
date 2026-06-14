@@ -32,38 +32,3 @@ EXPOSE 3000
 # Command to run the built application
 # SvelteKit generates a standalone Node server at build/index.js (or similar)
 CMD [ "node", "build/index.js" ]
-
-
-
-# FROM node:20-alpine AS builder
-# WORKDIR /app
-
-# # Копируем только package.json и package-lock.json
-# COPY package*.json ./
-
-# RUN npm install
-# RUN npm i vite
-
-# # Копируем весь проект
-# COPY . .
-
-# # Сборка Vite/SvelteKit
-# RUN npm run build
-
-# # --- Продакшн слой ---
-# FROM node:20-alpine
-# WORKDIR /app
-
-# # Копируем только prod зависимости
-# COPY package*.json ./
-# RUN npm install 
-# RUN npm i vite
-# #--production
-
-# # Копируем билд
-# COPY --from=builder /app/build ./build
-
-# EXPOSE 4173
-
-# CMD ["node", "build/index.js"]
-# CMD ["npm", "run", "preview"]
