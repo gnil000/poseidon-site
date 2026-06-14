@@ -1,34 +1,18 @@
-# --- Stage 1: Install dependencies and build the SvelteKit application ---
-FROM node:20-alpine AS builder
+FROM node:20-alpine AS build
 
 WORKDIR /app
 
-# Copy package files and install dependencies
-COPY package.json package-lock.json ./
+COPY package*.json ./
 RUN npm ci
 
-# Copy the rest of the application code
 COPY . .
-
-# Build the SvelteKit application for production (this runs vite build internally)
 RUN npm run build
 
-# Prune development dependencies (optional, but good for a clean runtime stage)
-RUN npm prune --production
 
-# --- Stage 2: Create a minimal production runtime image ---
-FROM node:20-alpine AS runtime
+FROM nginx:alpine
 
-WORKDIR /app
+COPY --from=build /app/build /usr/share/nginx/html
 
-# Copy the build output and production node_modules from the builder stage
-COPY --from=builder /app/build ./build
-COPY --from=builder /app/node_modules ./node_modules
-COPY package.json .
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Expose the port the SvelteKit server will run on (default is 3000)
-EXPOSE 3000
-
-# Command to run the built application
-# SvelteKit generates a standalone Node server at build/index.js (or similar)
-CMD [ "node", "build/index.js" ]
+EXPOSE 80
